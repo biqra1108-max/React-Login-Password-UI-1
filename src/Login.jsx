@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     setError('');
     try {
-      const response = await axios.post('https://product-mvc-two.vercel.app/api/login', formData, {
+      const response = await axios.post('https://https://product-mvc-two.vercel.app/api/login', formData, {
         headers: {
           'Content-Type': 'application/json'
         },

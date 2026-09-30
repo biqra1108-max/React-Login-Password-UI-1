@@ -16,7 +16,7 @@ const Signup = () => {
     setError('');
     try {
       // Headers explicit kar dein taaki Express ko pata ho ke JSON data aa raha hai
-      const response = await axios.post('https://product-mvc-two.vercel.app/api/register', formData, {
+      const response = await axios.post('https://https://product-mvc-two.vercel.app/api/register', formData, {
         headers: {
           'Content-Type': 'application/json'
         },
