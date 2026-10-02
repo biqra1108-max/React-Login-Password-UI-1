@@ -15,7 +15,7 @@ const Login = () => {
     e.preventDefault();
     setError('');
     try {
-      const response = await axios.post('https://product-mvc-production-2756.up.railway.app/api/login', formData, {
+      const response = await axios.post('http://localhost:5050/api/login', formData, {
         headers: {
           'Content-Type': 'application/json'
         },
